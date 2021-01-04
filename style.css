@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+header {
+  height: 100vh;
+  background: url('https://picsum.photos/1366/768');
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  margin: 50px 0 0 0;
+}
+
+header h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+header button {
+  padding: 10px 80px;
+  font-size: 30px;
+  margin: 0 0 30px 0;
+  color: black;
+}
+
+/* Main */
+
+.content {
+  margin: 0 10%;
+  max-width: 1200px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+main h2{
+  color: black;
+  font-size: 50px;
+}
+main span{
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+main section article {
+  padding: 20px;
+  height: 200px;
+}
+
+.first {
+  display: flex;
+  margin: 10px 0;
+}
+
+.first h2 {
+  color: white;
+}
+
+.postFirst {
+  width: 25%;
+  background: url("https://picsum.photos/1280?random=1")
+}
+
+.postFirstdois {
+  width: 75%;
+  margin: 0 0 0 10px;
+  background: url("https://picsum.photos/1280?random=2")
+}
+
+.second {
+  width: 100%;
+}
+.second h2 {
+  color: white;
+}
+
+.postSecond {
+  background: url("https://picsum.photos/1280?random=3")
+}
+
+.third {
+  display: flex;
+  margin: 10px 0;
+}
+
+.third h2 {
+  color: white;
+}
+
+.postThird {
+  text-align: right;
+  width: 75%;
+  background: url("https://picsum.photos/1280?random=4")
+}
+
+.postThirddois {
+  text-align: left;
+  width: 25%;
+  margin: 0 0 0 10px;
+  background: url("https://picsum.photos/1280?random=5")
+}
+
+/* Footer */
+
+footer {
+  background: gray;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+footer h1 {
+  position: absolute;
+}
+
+footer span {
+  position: absolute;
+  margin: 50px 0 0 0;
+}
+
+.boxes {
+  display: flex;
+  align-items: flex-end;
+}
+
+.box {
+  background: royalblue;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.price1 {
+  background: royalblue;
+  height: 80px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.description1 {
+  background: blue;
+  font-size: 10px;
+
+  height: 60px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.price2 {
+  background: royalblue;
+  height: 80px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.description2 {
+  background: blue;
+  font-size: 10px;
+
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.price3 {
+  background: royalblue;
+  height: 80px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.description3 {
+  background: blue;
+  font-size: 10px;
+
+  height: 150px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.price4 {
+  background: royalblue;
+  height: 80px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.description4 {
+  background: blue;
+  font-size: 10px;
+
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.price5 {
+  background: royalblue;
+  height: 80px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.description5 {
+  background: blue;
+  font-size: 10px;
+
+  height: 250px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.price6 {
+  background: royalblue;
+  height: 80px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.description6 {
+  background: blue;
+  font-size: 10px;
+
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
