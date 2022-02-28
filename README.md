@@ -4,7 +4,7 @@ processo seletivo codeby<br>
 transformar layout em um site
 <ul>
   <li> este <a href="https://www.notion.so/Teste-Layout-3b2b7ea6ffae4ff892a161f9112571b7">layout</a></li>
-  <li> resultado de como ficou: <a href="https://rafaelmarqueiz.github.io/codeby/"> aqui </a></li>
+  <li> resultado de como ficou: <a href="https://rafitamqs.github.io/codeby/"> aqui </a></li>
 </ul>
 <h2>O que foi utilizado</h2>
 <ul>
